@@ -14,19 +14,23 @@ w.pack()
 
 def intro():
     """ Introductory Function -> starts the story going """
-    messagebox.showinfo("Title", "\nHello, you are a _____ from ____. " + \
-                        "You stumble across such and such.")
+    messagebox.showinfo("Title", "Add some intro to the story." + \
+                        "\nAdd some good storytelling info.")
     choice = simpledialog.askinteger("Choose wisely",
-                                   "You have a choice to pick: 1 or 2.")
+                                   "Do you choose the blue pill (1)" + \
+                                    " or the red pill(2)?")
     if choice == 1:
-        choice1()
+        blue()
     elif choice == 2:
-        choice2()
+        red()
     else:
+        messagebox.showinfo("Incorrect Entry",
+                            "That was not an option. Type '1' for blue," + \
+                            "or '2' for red.")
         intro()
 
-################ Student A Functions #####################
-def choice1():
+################ Hundred Visions Guy Functions #####################
+def red():
     choice = simpledialog.askinteger("Choose wisely",
                                      "This is the next part of the story.  Now you must choose 1 or 2 again.")
     if (choice == 1):
