@@ -28,6 +28,17 @@ def intro():
                             "That was not an option. Type '1' for blue," + \
                             "or '2' for red.")
         intro()
+		
+	# Git Steps
+		# git pull
+			# fix any merge conflict (see teacher)
+		# Work on your code
+		# Complete something & test it
+			# fix anything that's broken
+		# Stage, commit, and push your changes
+			# $ git add .
+			# $ git commit -m "message (what I did)"
+			# $ git push origin master
 
 ################ Hundred Visions Guy Functions #####################
 def red():
