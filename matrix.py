@@ -43,8 +43,8 @@ def red():
     else:
         choice1()
 
-################ Student B Functions #####################
-def choice2():
+################ GiveMeYourMilk Functions #####################
+def blue():
     choice = simpledialog.askinteger("Choose wisely",
                                      "This is the next part of the story.  Now you must choose 1 or 2 again.")
     if (choice == 1):
@@ -55,7 +55,7 @@ def choice2():
         messagebox.showinfo("The End",
                             "You chose ok.  THE END")
     else:
-        choice2()
+        blue()
 
 ################ Main #####################
 intro()
